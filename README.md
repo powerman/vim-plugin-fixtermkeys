@@ -137,7 +137,7 @@ URxvt.keysym.M-C-S-space      : \033[32;8u
 URxvt.keysym.S-BackSpace      : \033[127;2u
 URxvt.keysym.M-BackSpace      : \033[127;3u
 URxvt.keysym.M-S-BackSpace    : \033[127;4u
-URxvt.keysym.C-BackSpace      : \033[127;5u
+! URxvt.keysym.C-BackSpace      : \033[127;5u
 URxvt.keysym.C-S-BackSpace    : \033[127;6u
 URxvt.keysym.M-C-BackSpace    : \033[127;7u
 URxvt.keysym.M-C-S-BackSpace  : \033[127;8u
