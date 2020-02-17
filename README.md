@@ -102,7 +102,8 @@ URxvt.keysym.M-C-S-Page_Down  : \033[6;8~
 
 !// See http://www.leonerd.org.uk/hacks/fixterms/
 
-! URxvt.keysym.S-Tab            : \033[Z
+!// S-Tab has own code: \033[Z
+! URxvt.keysym.S-Tab            : \033[9;2u
 URxvt.keysym.M-Tab            : \033[9;3u
 URxvt.keysym.M-S-Tab          : \033[9;4u
 URxvt.keysym.C-Tab            : \033[9;5u
@@ -126,7 +127,8 @@ URxvt.keysym.C-S-Escape       : \033[27;6u
 URxvt.keysym.M-C-Escape       : \033[27;7u
 URxvt.keysym.M-C-S-Escape     : \033[27;8u
 
-URxvt.keysym.S-space          : \033[32;2u
+!// S-space is often pressed occasionally while typing.
+! URxvt.keysym.S-space          : \033[32;2u
 URxvt.keysym.M-space          : \033[32;3u
 URxvt.keysym.M-S-space        : \033[32;4u
 URxvt.keysym.C-space          : \033[32;5u
@@ -137,6 +139,7 @@ URxvt.keysym.M-C-S-space      : \033[32;8u
 URxvt.keysym.S-BackSpace      : \033[127;2u
 URxvt.keysym.M-BackSpace      : \033[127;3u
 URxvt.keysym.M-S-BackSpace    : \033[127;4u
+!// C-BackSpace has own code: C-h
 ! URxvt.keysym.C-BackSpace      : \033[127;5u
 URxvt.keysym.C-S-BackSpace    : \033[127;6u
 URxvt.keysym.M-C-BackSpace    : \033[127;7u
