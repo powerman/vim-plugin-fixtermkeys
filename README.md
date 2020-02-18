@@ -131,7 +131,8 @@ URxvt.keysym.M-C-S-Escape     : \033[27;8u
 ! URxvt.keysym.S-space          : \033[32;2u
 URxvt.keysym.M-space          : \033[32;3u
 URxvt.keysym.M-S-space        : \033[32;4u
-URxvt.keysym.C-space          : \033[32;5u
+!// C-space has own code: ^@ (Nul)
+! URxvt.keysym.C-space          : \033[32;5u
 URxvt.keysym.C-S-space        : \033[32;6u
 URxvt.keysym.M-C-space        : \033[32;7u
 URxvt.keysym.M-C-S-space      : \033[32;8u
@@ -139,7 +140,7 @@ URxvt.keysym.M-C-S-space      : \033[32;8u
 URxvt.keysym.S-BackSpace      : \033[127;2u
 URxvt.keysym.M-BackSpace      : \033[127;3u
 URxvt.keysym.M-S-BackSpace    : \033[127;4u
-!// C-BackSpace has own code: C-h
+!// C-BackSpace has own code: ^H
 ! URxvt.keysym.C-BackSpace      : \033[127;5u
 URxvt.keysym.C-S-BackSpace    : \033[127;6u
 URxvt.keysym.M-C-BackSpace    : \033[127;7u
