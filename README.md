@@ -1,6 +1,6 @@
 # fixtermkeys
 
-Fix terminal Ctrl Alt Shift modifiers for keys like Tab CR Esc Space BS cursor and others.
+Fix terminal Ctrl Alt Shift modifiers for keys like Tab CR Space BS cursor and others.
 
 Based on http://www.leonerd.org.uk/hacks/vim/fixtermkeys.html.
 
